@@ -51,6 +51,9 @@ Sizes take `mm`, `cm`, `in`, or `pt`. A plain number means mm.
 | `--margin-line`     | off             | vertical line at the left margin, e.g. `'0.8 pink'`   |
 | `--xheight-fill`    | off             | shade the x-height band, e.g. `'#fff4cc'`             |
 | `--color`           | —               | one color for all horizontal lines                    |
+| `--no-footer`       | off             | hide the small footer (see below)                     |
+
+Each page has a small gray footer in the bottom margin. It shows the sizes used, the command (without `-o`), and the project URL, so you can make the same page again.
 
 Common cursive slants: about 52–55° for traditional styles, 60–65° for a gentler slant.
 
